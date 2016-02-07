@@ -29,6 +29,39 @@
 </head>
 <body>
 <div class="preloader"></div>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img id="image-navbar" src="images/logo_sucursal_bank.png" alt="logo"></a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#explore">Sobre Nosotros</a></li>
+
+        <li class="dropdown">
+          <a href="sucursalbank.co/blog" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="http://sucursalbank.co/blog/category/ahorro/">Ahorro</a></li>
+            <li><a href="http://sucursalbank.co/blog/category/credito/">Crédito</a></li>
+            <li><a href="http://sucursalbank.co/blog/category/eldineroytu/">El Dinero y Tú</a></li>
+            <li><a href="http://sucursalbank.co/blog/category/proteccion/">Protección</a></li>
+          </ul>
+        </li>
+        <li><a href="#bancos">Bancos</a></li>
+      <!--  <li><a href="#">Descargar App</a></li>-->
+      <!--  <li><a href="#">Contacto</a></li>-->
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
 <!-- Parallax Header Starts -->
 <main id="top" class="masthead" role="main">
   <div class="container">
@@ -123,8 +156,8 @@
   <!-- // Features Section Ends -->
 
   <!-- Client Logos -->
-  <div class="section-title">
-    <h2>Trabajamos con los bancos más confiables-</h2>
+  <div class="section-title" id="bancos">
+    <h2>Trabajamos Con Los Bancos Más Confiables</h2>
     <h4></h4>
   </div>
   <section class="row clientlogo breath">
@@ -138,10 +171,10 @@
 <!-- // Container Ends -->
 
 <!-- Grey Highlight Section -->
-<div class="highlight testimonials">
+<!-- <div class="highlight testimonials" style="">
   <div class="container">
 
-    <!-- Testimonials -->
+    <!-- Testimonials --
     <div class="section-title">
       <h2>¿Qué dicen nuestros usuarios?</h2>
       <h4>No tomes nuestra palabra. Mira lo que dicen de nosotros.</h4>
@@ -160,7 +193,7 @@
         </div>
       </div>
     </section>
-    <!-- // End Testimonials -->
+    <!-- // End Testimonials --
 
   </div>
 </div>
@@ -175,16 +208,16 @@
   </div>
   <section class="row faq breath">
     <div class="col-md-6">
-      <h6>How does the free trial work?</h6>
+      <h6>¿Cómo Funciona Sucursal Bank?</h6>
       <p>Our 10 day trial is 100% free and does not require credit card information to start. If at the end of your trial you would like to upgrade, great. If not, you can cancel your account altogether, or let us mark it as inactive for you to come back to later.</p>
-      <h6>Can I switch plans later?</h6>
+      <h6>¿Cómo funcionan los créditos que otorga Sucursal Bank?</h6>
       <p>Absolutely. You can switch between our paid plans, or cancel your account altogether, whenever you like. We will adjust any payments accordingly.</p>
     </div>
     <div class="col-md-6">
-      <h6>Do I need to choose a plan now?</h6>
+      <h6>¿Es seguro consultar un crédito vía sucursal bank?</h6>
       <p>No. You get the full featured, unlimited version of Startup completely free for 10 days. Once you're ready to upgrade, you may choose a plan which suits your needs.</p>
-      <h6>What payment types do you accept?</h6>
-      <p>We accept payments from MasterCard, Visa, Visa Debit and American Express. We do not accept PayPal. Remember, you do not need to supply card details to start your free trial.</p>
+      <!--<h6>What payment types do you accept?</h6>
+      <p>We accept payments from MasterCard, Visa, Visa Debit and American Express. We do not accept PayPal. Remember, you do not need to supply card details to start your free trial.</p>-->
     </div>
   </section>
   <!-- // End FAQ -->
@@ -210,8 +243,8 @@
 <!-- Container -->
 <div class="container">
   <section class="row breath">
-    <div class="col-md-12 footerlinks"> <a href="#">Sobre Nosotros</a> <a href="#">Precio</a> <a href="blog.html">Blog</a> <a href="#">Ayuda</a> <a href="#">Contacto</a> <a href="#">Privacidad</a> <a href="#">Terminos</a>
-      <p>&copy; 2016 Sucursal Bank. All Rights Reserved</p>
+    <div class="col-md-12 footerlinks"> <a href="#explore">Sobre Nosotros</a> <a href="sucursalbank.co/blog">Blog</a> <a href="sucursalbank.co/contacto">Contacto</a>
+      <p>&copy; 2016 Sucursal Bank. Todos Los Derechos Reservados</p>
     </div>
   </section>
   <!-- // End Client Logos -->

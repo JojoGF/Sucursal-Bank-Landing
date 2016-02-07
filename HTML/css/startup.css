@@ -33,6 +33,7 @@ I will really help you
 /*========== 1. GLOBAL STYLES ==============*/
 
 
+
 body {
 	font-family: 'Open Sans', Arial, sans-serif;
 	background:#FFF;
@@ -844,4 +845,10 @@ padding: 8px 15px;
 	margin-bottom:0px;
 
 
+}
+
+
+#image-navbar{
+	width: 193px;
+	margin-top: -16px;
 }
